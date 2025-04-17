@@ -28,4 +28,4 @@ jobs:
           # set via the GitHub UI/CLI
           cloud-token: ${{ secrets.DAGGER_CLOUD_TOKEN }}
         env:
-          RENOVATE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RENOVATE_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
